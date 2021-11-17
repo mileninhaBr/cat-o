@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #97282a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Título em Destaque */
+  .Header {
+    transition: transform 250ms;
+  }
+  .Header:hover {
+    transform: translateY(-10px);
+  }
+/* ------------------------------------------------------------------------------- */
+
+.box {
+  background: #461415;
+  border-radius: 20px;
+  width: 140px;
+  height: 36px;
+}
+.box:hover {
+  background-color: #6d2021;
+}
+.App-link {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+.text {
+  white-space: pre-wrap;
+  text-align: center;
+}
+.text1 {
+  white-space: pre-wrap;
+  text-align: right;
+  padding: 20px;
+  margin-left: 364px;
+}
+
+.video {
+  width: 500px;
+  height: 380px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -650px;
+
+}
